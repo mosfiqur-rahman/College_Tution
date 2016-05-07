@@ -1,0 +1,26 @@
+User Manual:-
+
+
+/***************************************************************************************************
+PROGRAM : College_tution.cpp
+PURPOSE : It will calculate the total tuition of the 5years' college education along with
+	  that the yearly tuition, which increases for
+	  total five years consecutively. For this reason, it will take the value of initial tution,
+	  and the yearly rate of tution increase in percentage  as inputs,
+	  and will show the output calculating the desired result.
+Coder : Mosfiqur Rahman (mr986@drexel.edu)
+Last Modified : 19th January, 2016.
+***************************************************************************************************/
+
+To run the program, please open the College_tution.cpp file in a compiler that is able to compile any program, which is written in C++. After that, build and run the program. 
+
+A new window will pop-up. It will ask you to enter the initial tution amount in dollars. Enter a integer number. Please, don't use the dollar sign($). Again, don't give any decimal number as an input. Because if you do so, it will directly ignore the decimal part, and will take just the part before the decimal sign. Now, hit the ENTER button. 
+
+Then, the program will ask you to enter the percentage of yearly tution increase. Enter a positer number, and please don't use the percentage (%) sign. Now, hit the ENTER button.
+
+This time it will show you the calculated result in the new window as output. The result for every single year, and the total tution for 5years respectively.
+
+Note:- The program assumes that the rate of tution increase is constant every year.
+
+
+

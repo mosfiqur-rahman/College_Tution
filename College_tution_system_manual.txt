@@ -1,0 +1,31 @@
+System Manual:-
+
+
+/***************************************************************************************************
+PROGRAM : College_tution.cpp
+PURPOSE : It will calculate the total tuition of the 5years' college education along with
+	  that the yearly tuition, which increases for
+	  total five years consecutively. For this reason, it will take the value of initial tution,
+	  and the yearly rate of tution increase in percentage  as inputs,
+	  and will show the output calculating the desired result.
+Coder : Mosfiqur Rahman (mr986@drexel.edu)
+Last Modified : 19th January, 2016.
+***************************************************************************************************/
+
+The program is created to calculate the tution of any student who is enrolled in a 5 year program where his/her tution is increasing every year at a constant rate. 
+
+After completely running this program, the user will be able to see his/ her current year tution as well as expected next 4 years' tution, and the total tution. To run this program, the user will just need to input his tution of the current or initial year, and the rate of tution increase in percentage. 
+
+The program will store the amount of initial tution in a integer long variable named tution. So, if the user types a decimal number, the program will just count the integer part. After that, it will multiply the value with 100 so that we can have the value in cents, and store the new value in the variable tution.
+
+Then, the program will take the rate of tution increase as an input, and will store the value in a double type variable named percentage. 
+
+The value of percentage will be converted as a proper form, so that we can simply multiply the tution with this to get the expected value every time. For this reason, the program will apply a formula, which is percentage = 1 + (percentage/100); that will convert the value in our usable format.Now, the program will mutiply this new value with the previous tution to get the next year's tution.Thus, it will get the next year's tution, and will show the value as an output 5 times.
+
+The program will also store the total tution in a long type variable named total_tution, which will have a intial value of 0 at the starting of the prgram. The program will add the new year's tution with the previous one, whenever it gets a new value, then it will store the new value in total_tution. After calculating, all the 5years tution, the program will calculate the total tution of 5years, and will show the value as one of the outputs.
+
+
+Note:- The program is made using the formatting directives in the iomanip library.
+
+
+
